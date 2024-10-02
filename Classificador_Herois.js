@@ -1,21 +1,22 @@
+//Usei como exemplo os valores de Nome e XP;
 let Nome = "Nyckollas";
 let XP = 11900;
 let Nivel;
 if(XP <= 1000){
-   Elo = "Ferro";
+   Nivel = "Ferro";
 }else if(XP > 1000 && XP <= 2000){
-   Elo = "Bronze";
+   Nivel = "Bronze";
 }else if(XP > 2001 && XP <= 5000){
-    Elo = "Prata";
+    Nivel = "Prata";
  }else if(XP > 5001 && XP <= 7000){
-    Elo = "Ouro";
+    Nivel = "Ouro";
  }else if(XP > 7001 && XP <= 8000){
-    Elo = "Platina";
+    Nivel = "Platina";
  }else if(XP > 8001 && XP <= 9000){
-    Elo = "Ascendente";
+    Nivel = "Ascendente";
  }else if(XP > 9001 && XP <= 10000){
-    Elo = "Imortal";
+    Nivel = "Imortal";
  }else{
-    Elo = "Radiante";
+    Nivel = "Radiante";
  }
  console.log('O Herói de nome ' + Nome + ' está no nível de ' + Nivel);
